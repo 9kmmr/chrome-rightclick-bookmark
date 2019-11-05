@@ -1,2 +1,3 @@
 # chrome-rightclick-bookmark
 add rightclick to book mark in chrome for any type of data: link, text, image,...
+ except videos, images in Facebook and Instagram

@@ -1,0 +1,30 @@
+{
+    "background": {
+        "persistent": true,
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": {
+            "128": "128.png",
+            "64": "64.png",
+            "48": "48.png",
+            "16": "16.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Chrome RightClick Bookmark"
+    },
+    "description": "Extension add rightclick bookmark with any type of data as images, link, or any text, except videos, images in Facebook and Instagram",
+    "icons": {
+        "128": "128.png",
+        "64": "64.png",
+        "48": "48.png",
+        "16": "16.png"
+    },
+    "manifest_version": 2,
+    "name": "Chrome RightClick Bookmark",
+    
+    "permissions": ["tabs", "activeTab", "storage", "contextMenus"],
+    "short_name": "chrome-rightclick-bookmark",
+    "version": "1.0.0",
+    "web_accessible_resources": ["128.png"]
+}

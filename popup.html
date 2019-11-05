@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bookmarks Page</title>
+
+        <!-- Bootstrap CSS -->
+
+        <link href="/assets/css/all.min.css" rel="stylesheet">
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/css/now-ui-kit.css" rel="stylesheet">
+        <link href="/assets/css/popup.css" rel="stylesheet">
+        
+
+       
+    </head>
+    <body>
+        <h3 class="text-center">My Bookmarks</h3>
+        <hr>
+
+            <div class="row">
+                <div class="col-2">
+            <!--
+                color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                                                -->
+                    <ul class="nav nav-pills nav-pills-primary nav-pills-icons flex-column" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#linkwebsite" role="tablist">
+                                <i class="fas fa-link"></i>Links
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " data-toggle="tab" href="#linktext" role="tablist">
+                                <i class="fas fa-spell-check"></i>Text
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#linkimages" role="tablist">
+                                <i class="fas fa-images"></i> Images
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="linkwebsite">
+                            
+                            
+                        </div>
+                        <div class="tab-pane" id="linktext">
+                            
+                        </div>
+                        <div class="tab-pane" id="linkimages">
+                            <div class="row" id="image-section">
+
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+        <script src="/jquery.min.js"></script>
+        <script src="/assets/js/popper.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/now-ui-kit.js"></script>
+        <script src="/popup.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+html,body{
+    width: 600px;
+    height: 600px;
+}
+.tab-pane {
+    max-height: 530px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.badge {
+    white-space:normal;
+}
